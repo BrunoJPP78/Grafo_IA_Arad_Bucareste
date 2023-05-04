@@ -74,8 +74,8 @@ class Grafo:
     fagaras.adiciona_adjacente(Adjacente(bucharest, 211))
 
     pitesti.adiciona_adjacente(Adjacente(rimnicu, 97))
-    pitesti.adiciona_adjacente(Adjacente(rimnicu, 138))
-    pitesti.adiciona_adjacente(Adjacente(rimnicu, 101))
+    pitesti.adiciona_adjacente(Adjacente(craiova, 138))
+    pitesti.adiciona_adjacente(Adjacente(bucharest, 101))
 
     bucharest.adiciona_adjacente(Adjacente(fagaras, 211))
     bucharest.adiciona_adjacente(Adjacente(pitesti, 101))
